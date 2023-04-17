@@ -25,11 +25,11 @@ body {
   }
 
   .start-button {
-    display: flex;
+    display: flex; 
     border-radius: 10%;
     color: #ffffff;
-    height: 20px;
-    width: 100px;
+    height: 50px;
+    width: 120px;
     align-items:center;
     border-radius: 0 0 0 0;
     position: relative;
@@ -38,11 +38,15 @@ body {
     background: #006eff;
   }
 
+  .start-button span {
+    margin-left: 10px;
+  }
+
   .temperature-display-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 70%;
   }
   
   .temperature-display {

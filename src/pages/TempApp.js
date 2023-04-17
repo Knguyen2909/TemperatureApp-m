@@ -37,7 +37,9 @@ const TempApp = () => {
         </div>
       </div>
       <div className="start-button-container">
-        <div className="start-button"></div>
+        <div className="start-button">
+          <span>Start</span>
+         </div>
       </div> {}
       <div className="button-container">
         <button onMouseDown={increaseTemperature}>+</button>
