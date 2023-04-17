@@ -10,13 +10,38 @@ body {
   }
   
   .app-container {
-    height: 400px;
-    width: 300px;
+    height: 896px;
+    width: 414px;
     background: #2b5870;
     border-radius: 20px;
     box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
   }
   
+  .start-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+  }
+
+  .start-button {
+    display: flex; 
+    border-radius: 10%;
+    color: #ffffff;
+    height: 50px;
+    width: 120px;
+    align-items:center;
+    border-radius: 0 0 0 0;
+    position: relative;
+    font-size: 48px;
+    border: 3px #ffffff solid;
+    background: #006eff;
+  }
+
+  .start-button span {
+    margin-left: 10px;
+  }
+
   .temperature-display-container {
     display: flex;
     justify-content: center;

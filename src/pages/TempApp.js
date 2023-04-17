@@ -29,7 +29,6 @@ const TempApp = () => {
       setTemperatureColor("freezing");
     }
   };
-
   return (
     <div className="app-container">
       <div className="temperature-display-container">
@@ -37,12 +36,19 @@ const TempApp = () => {
           {temperatureValue}°C
         </div>
       </div>
+      <div className="start-button-container">
+        <div className="start-button">
+          <span>Start</span>
+         </div>
+      </div> {}
       <div className="button-container">
         <button onMouseDown={increaseTemperature}>+</button>
         <button onClick={decreaseTemperature}>-</button>
       </div>
     </div>
   );
+  
 };
 
 export default TempApp;
+
